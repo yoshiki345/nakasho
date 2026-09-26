@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>仕事を依頼する｜萬屋ナカショー</title>
+
+<meta name="description"
+content="富山市・射水市・高岡市の便利屋、萬屋ナカショーへの仕事依頼フォーム。不用品回収、片付け、草むしり、家具移動、屋根修理などお気軽にご依頼ください。">
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Noto Sans JP",sans-serif;
+  background:#f4f7f5;
+  color:#222;
+  line-height:1.7;
+}
+
+header{
+  background:#006633;
+  color:white;
+  text-align:center;
+  padding:28px 15px;
+}
+
+header h1{
+  margin:0 0 8px;
+  font-size:1.8rem;
+}
+
+header p{
+  margin:4px 0;
+}
+
+.container{
+  max-width:700px;
+  margin:20px auto;
+  padding:0 15px;
+}
+
+.card{
+  background:white;
+  border-radius:12px;
+  padding:25px 20px;
+  box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+h2{
+  color:#006633;
+  border-left:5px solid #006633;
+  padding-left:10px;
+  margin-top:0;
+}
+
+label{
+  display:block;
+  font-weight:bold;
+  margin-top:18px;
+  margin-bottom:6px;
+}
+
+.required{
+  color:#d00;
+  font-size:.85rem;
+  margin-left:5px;
+}
+
+input,
+select,
+textarea{
+  width:100%;
+  padding:13px;
+  border:1px solid #bbb;
+  border-radius:7px;
+  font-size:16px;
+  background:white;
+}
+
+textarea{
+  min-height:130px;
+  resize:vertical;
+}
+
+input[type="file"]{
+  padding:10px;
+}
+
+.note{
+  font-size:.85rem;
+  color:#666;
+  margin-top:5px;
+}
+
+.submit{
+  width:100%;
+  margin-top:25px;
+  padding:16px;
+  border:0;
+  border-radius:9px;
+  background:#f28c28;
+  color:white;
+  font-size:1.15rem;
+  font-weight:bold;
+}
+
+.back{
+  display:block;
+  text-align:center;
+  margin:20px 0;
+  color:#006633;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+.phone{
+  text-align:center;
+  margin-top:20px;
+  padding:15px;
+  background:#eef7f1;
+  border-radius:8px;
+}
+
+.phone a{
+  color:#006633;
+  font-size:1.4rem;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+footer{
+  text-align:center;
+  background:#004d26;
+  color:white;
+  padding:25px 15px;
+  margin-top:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>萬屋ナカショー</h1>
+  <p>仕事のご依頼・お見積もり</p>
+  <p>富山市・射水市・高岡市対応</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>仕事を依頼する</h2>
+
+<p>
+下のフォームに必要事項をご入力ください。<br>
+内容を確認後、ナカショーからご連絡します。
+</p>
+
+<form
+  action="https://formsubmit.co/y26820413@gmail.com"
+  method="POST"
+  enctype="multipart/form-data"
+>
+
+<!-- メール設定 -->
+<input type="hidden" name="_subject" value="【ナカショー】新しい仕事依頼が届きました">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="true">
+<input type="hidden" name="_next" value="https://yoshiki345.github.io/nakasho/">
+
+<label>
+お名前<span class="required">必須</span>
+</label>
+<input
+  type="text"
+  name="お名前"
+  placeholder="例：山田太郎"
+  required
+>
+
+<label>
+電話番号<span class="required">必須</span>
+</label>
+<input
+  type="tel"
+  name="電話番号"
+  placeholder="例：090-1234-5678"
+  required
+>
+
+<label>
+メールアドレス
+</label>
+<input
+  type="email"
+  name="email"
+  placeholder="例：example@gmail.com"
+>
+
+<label>
+住所<span class="required">必須</span>
+</label>
+<input
+  type="text"
+  name="住所"
+  placeholder="例：富山市○○町"
+  required
+>
+
+<label>
+依頼したい仕事<span class="required">必須</span>
+</label>
+
+<select name="依頼内容" required>
+  <option value="">選択してください</option>
+  <option value="不用品回収">不用品回収</option>
+  <option value="片付け・整理">片付け・整理</option>
+  <option value="家具・家電の運搬">家具・家電の運搬</option>
+  <option value="草むしり・草刈り">草むしり・草刈り</option>
+  <option value="庭仕事">庭仕事</option>
+  <option value="雪かき・除雪">雪かき・除雪</option>
+  <option value="家具移動">家具移動</option>
+  <option value="引っ越し手伝い">引っ越し手伝い</option>
+  <option value="空き家管理">空き家管理</option>
+  <option value="瓦屋根・屋根修理">瓦屋根・屋根修理</option>
+  <option value="物置・犬小屋などの解体">物置・犬小屋などの解体</option>
+  <option value="その他">その他</option>
+</select>
+
+<label>
+希望日
+</label>
+<input
+  type="date"
+  name="希望日"
+>
+
+<label>
+希望時間
+</label>
+<select name="希望時間">
+  <option value="">選択してください</option>
+  <option value="午前">午前</option>
+  <option value="12時〜14時">12時〜14時</option>
+  <option value="14時〜16時">14時〜16時</option>
+  <option value="16時〜17時">16時〜17時</option>
+  <option value="時間は相談">時間は相談</option>
+</select>
+
+<label>
+依頼内容の詳しい説明<span class="required">必須</span>
+</label>
+
+<textarea
+  name="詳しい内容"
+  placeholder="例：タンス2台を処分したいです。2階にあります。"
+  required
+></textarea>
+
+<label>
+写真を添付
+</label>
+
+<input
+  type="file"
+  name="写真"
+  accept="image/jpeg,image/png"
+  multiple
+>
+
+<p class="note">
+現場の写真があると、見積もりがしやすくなります。<br>
+写真は合計10MB以内にしてください。
+</p>
+
+<button type="submit" class="submit">
+📩 この内容で依頼する
+</button>
+
+</form>
+
+<div class="phone">
+電話でのご依頼もできます<br>
+<a href="tel:08062466963">080-6246-6963</a>
+</div>
+
+</div>
+
+<a class="back" href="index.html">
+← トップページに戻る
+</a>
+
+</div>
+
+<footer>
+<p>萬屋ナカショー</p>
+<p>富山市・射水市・高岡市対応</p>
+<p>TEL：080-6246-6963</p>
+</footer>
+
+</body>
+</html>
